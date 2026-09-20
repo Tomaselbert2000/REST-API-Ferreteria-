@@ -7,7 +7,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public final class BrandInputDTO {
+public final class BrandDTO {
 
     private String name;
     private String description;
