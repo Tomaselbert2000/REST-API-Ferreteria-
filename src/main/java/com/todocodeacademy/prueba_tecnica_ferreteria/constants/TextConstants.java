@@ -30,4 +30,10 @@ public final class TextConstants {
         public static final String NEGATIVE_PRICE = PRICE + IS_NEGATIVE;
         public static final String NEGATIVE_STOCK = STOCK + IS_NEGATIVE_OR_ZERO;
     }
+
+    public static final class ExceptionMessages {
+
+        public static final String PRODUCT_NOT_FOUND = "No se encontraron productos con el ID proporcionado";
+        public static final String BRAND_NOT_FOUND = "No se encontraron marcas con el ID proporcionado";
+    }
 }
