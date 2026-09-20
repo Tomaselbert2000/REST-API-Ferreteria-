@@ -36,4 +36,15 @@ public final class TextConstants {
         public static final String PRODUCT_NOT_FOUND = "No se encontraron productos con el ID proporcionado";
         public static final String BRAND_NOT_FOUND = "No se encontraron marcas con el ID proporcionado";
     }
+
+    public static final class ControllerConstants {
+
+        public static final String PRODUCT_CREATED_SUCCESSFULLY = "Producto creado exitosamente";
+        public static final String PRODUCT_DELETED_SUCCESSFULLY = "Producto eliminado exitosamente";
+        public static final String PRODUCT_UPDATED_SUCCESSFULLY = "Producto actualizado exitosamente";
+
+        public static final String BRAND_CREATED_SUCCESSFULLY = "Marca de producto creada exitosamente";
+        public static final String BRAND_DELETED_SUCCESSFULLY = "Marca de producto creada exitosamente";
+        public static final String BRAND_UPDATED_SUCCESSFULLY = "Marca de producto actualizada exitosamente";
+    }
 }
